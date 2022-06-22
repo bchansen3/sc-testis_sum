@@ -26,6 +26,7 @@ Only single cell RNA-seq data used (not bulk RNA or microarray)
 
 
 
+mermaid syntax [link](https://mermaid-js.github.io/mermaid/#/)
 
 ```mermaid
   graph TD;

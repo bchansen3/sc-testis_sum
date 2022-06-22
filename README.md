@@ -29,11 +29,12 @@ Only single cell RNA-seq data used (not bulk RNA or microarray)
 mermaid syntax [link](https://mermaid-js.github.io/mermaid/#/)
 
 ```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
+  sequenceDiagram;
+  participant in vitro imaging
+  participant Public Data
+  Participant in vitro omics
+
+  in vitro omics --> Public Data: Check
 ```
 
 

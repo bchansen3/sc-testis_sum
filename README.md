@@ -25,24 +25,42 @@ Only single cell RNA-seq data used (not bulk RNA or microarray)
 | [A Single-Cell Atlas of In Vivo Mammalian Chromatin Accessibility](https://doi.org/10.1016/j.cell.2018.06.052) | 2018 | Cusanovich et al. | Mice | [chromatin availability, mice](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE111586) |
 
 
-
-mermaid syntax [link](https://mermaid-js.github.io/mermaid/#/)
-
+### Human Coverage
 ```mermaid
-flowchart TB
-    c1-->a2
-    subgraph one
-    a1-->a2
+flowchart TD
+    subgraph Adult
+    d1((17, 24 and 25 years old<br>Guo et al. 2018))-->d2((37 and 42 years old<br>Sohni et al. 2019))
     end
-    subgraph two
-    b1-->b2
+    subgraph Infant
+    c1((5 months<br>Guo et al. 2021))-->c2((13 months<br>Guo et al. 2018))
     end
-    subgraph three
-    c1-->c2
+    subgraph Neonatal Stage
+    e1(2 pnd <br>Sohni et al. 2019)-->e2(7 pnd <br>Sohni et al. 2019)
     end
-    one --> two
-    three --> two
-    two --> c2
+    subgraph Fetal Stage
+    b1(12 wpf<br>Guo et al. 2021)-->b2(15 wpf<br>Guo et al. 2021)-->b3(16 wpf<br>Guo et al. 2021)
+    end
+    subgraph Embryonic Stage
+   id1{6 wpf<br>Guo et al. 2021}-->id2{7 wpf<br>Guo et al. 2021}-->id3{8 wpf<br>Guo et al. 2021}
+    end
 ```
 
-
+### Mouse Coverage
+```mermaid
+flowchart TD
+    subgraph Adult
+    d1((17, 24 and 25 years old<br>Guo et al. 2018))-->d2((37 and 42 years old<br>Sohni et al. 2019))
+    end
+    subgraph Infant
+    c1((5 months<br>Guo et al. 2021))-->c2((13 months<br>Guo et al. 2018))
+    end
+    subgraph Neonatal Stage
+    e1(2 pnd <br>Sohni et al. 2019)-->e2(7 pnd <br>Sohni et al. 2019)
+    end
+    subgraph Fetal Stage
+    b1(12 wpf<br>Guo et al. 2021)-->b2(15 wpf<br>Guo et al. 2021)-->b3(16 wpf<br>Guo et al. 2021)
+    end
+    subgraph Embryonic Stage
+   id1{6 wpf<br>Guo et al. 2021}-->id2{7 wpf<br>Guo et al. 2021}-->id3{8 wpf<br>Guo et al. 2021}
+    end
+```

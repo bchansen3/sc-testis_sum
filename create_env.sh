@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#activate conda 
+ source ~/anaconda3/bin/activate
+
 ## to create conda environment for this project
 
 conda create -n sc-testis python=3.9

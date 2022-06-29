@@ -64,3 +64,12 @@ flowchart TD
    id1{6 wpf<br>Guo et al. 2021}-->id2{7 wpf<br>Guo et al. 2021}-->id3{8 wpf<br>Guo et al. 2021}
     end
 ```
+
+### Rat Coverage
+
+
+
+## Procedure
+
+    1. Download data from NCBI and process to input files: genes, barcodes, count matrix.
+    2. 

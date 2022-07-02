@@ -64,3 +64,22 @@ flowchart TD
    id1{6 wpf<br>Guo et al. 2021}-->id2{7 wpf<br>Guo et al. 2021}-->id3{8 wpf<br>Guo et al. 2021}
     end
 ```
+
+
+## Method
+
+1. download samples from NCBI FTP
+
+2. Do processing in R
+
+3. Use Seurat to nomalize and then "integrate" using the SCTransformed datasets
+
+4. Integrate timepoints in dataset -- not across datasets (yet)
+
+5. Use the "Find Conserved Markers" function to identify marker genes that are conistent across timepoints
+6. Do preliminary cell type ID per each cluster
+   1. Inititally proceed with just cell types of interest
+7. Find differnetially expressed genes between timepoints (but within clusters) 
+8. Plot top differentially expressed genes relative to housekeeping genes in that cell type
+9.  Use pathway analysis at each time point based on differentially expressed genes
+10. DO above steps for both Human and Mouse to align development

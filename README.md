@@ -65,6 +65,7 @@ flowchart TD
     end
 ```
 
+<<<<<<< HEAD
 
 ## Method
 

@@ -5,8 +5,8 @@
 
 ## to create conda environment for this project
 
-conda create -n sc-testis python=3.9
-conda activate sc-testis
+conda create -n sc-testis-env python=3.9
+conda activate sc-testis-env
 
 # Scanpy installation 
 conda install seaborn scikit-learn statsmodels numba pytables
